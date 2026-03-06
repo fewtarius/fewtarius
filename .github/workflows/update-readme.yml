@@ -1,0 +1,39 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily at 06:00 UTC
+  workflow_dispatch:        # manual trigger
+  push:
+    branches: ["main", "master"]
+    paths:
+      - "scripts/readme-config.json"
+      - "scripts/readme-header.md"
+      - "scripts/readme-footer.md"
+      - "scripts/update-readme.py"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update-readme.py
+
+      - name: Commit changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "readme: auto-update catalog"
+            git push
+          fi

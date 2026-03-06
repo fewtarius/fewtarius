@@ -1,0 +1,30 @@
+{
+  "user": "fewtarius",
+  "org_overrides": {
+    "SyntheticAutonomicMind": {
+      "display": "Synthetic Autonomic Mind",
+      "tagline": "Privacy-first AI tools. Free, open source, and built to work the way you do."
+    }
+  },
+  "repo_overrides": {
+    "SyntheticAutonomicMind/SAM": {
+      "description": "Native macOS AI assistant with voice control, local model support, and persistent memory"
+    },
+    "SyntheticAutonomicMind/CLIO": {
+      "description": "Terminal-first AI coding assistant with real tool execution and multi-agent coordination"
+    },
+    "SyntheticAutonomicMind/ALICE": {
+      "description": "Local Stable Diffusion image generation with OpenAI-compatible API and private gallery"
+    },
+    "fewtarius/photonbbs": {
+      "description": "Telnet-based BBS and MUD platform with Docker deployment"
+    },
+    "fewtarius/PowerDeck": {
+      "description": "Power management Decky plugin for Steam Deck and compatible handhelds"
+    },
+    "fewtarius/NetDeck": {
+      "description": "Advanced networking Decky plugin - MAC spoofing, WiFi hotspot, internet sharing"
+    }
+  },
+  "exclude_repos": []
+}

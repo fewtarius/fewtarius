@@ -1,0 +1,34 @@
+# Session data
+ai-assisted/202*
+
+# CLIO
+# Editor files
+*.swp
+*.bak
+*~
+.*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Transient data
+scratch/
+reference/
+/*.txt
+
+# Logs
+*.log
+debug.log
+output.log
+
+# Python
+__pycache__/
+*.pyc
+
+*.backup
+!.clio/instructions.md
+
+# CLIO (managed automatically)
+.clio/*
+!.clio/instructions.md
