@@ -22,11 +22,11 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 |---------|-------------|----------|
 | [photonbbs](https://github.com/fewtarius/photonbbs) | Telnet-based BBS and MUD platform with Docker deployment | Perl |
 | [github-backup](https://github.com/fewtarius/github-backup) | A simple script to backup everything. | Python |
-| [tvtrim](https://github.com/fewtarius/tvtrim) | automated commercial stripping for HDHomeRun recordings | Python |
+| [hdhomerun-deploy](https://github.com/fewtarius/hdhomerun-deploy) |  | Shell |
+| [tvtrim](https://github.com/fewtarius/tvtrim) | Automated commercial stripping for HDHomeRun recordings | Python |
 | [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
 | [NetDeck](https://github.com/fewtarius/NetDeck) | Advanced networking Decky plugin - MAC spoofing, WiFi hotspot, internet sharing | Python |
 | [pulumi-lab](https://github.com/fewtarius/pulumi-lab) | A simple Pulumi proof of concept repo. | Python |
-| [hdhomerun-deploy](https://github.com/fewtarius/hdhomerun-deploy) |  | Shell |
 
 ---
 
