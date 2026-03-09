@@ -22,6 +22,7 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 |---------|-------------|----------|
 | [photonbbs](https://github.com/fewtarius/photonbbs) | Telnet-based BBS and MUD platform with Docker deployment | Perl |
 | [github-backup](https://github.com/fewtarius/github-backup) | A simple script to backup everything. | Python |
+| [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A terminal emulator that supports native SSH, ANSI, CP437, and more. | C |
 | [hdhomerun-deploy](https://github.com/fewtarius/hdhomerun-deploy) |  | Shell |
 | [tvtrim](https://github.com/fewtarius/tvtrim) | Automated commercial stripping for HDHomeRun recordings | Python |
 | [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
