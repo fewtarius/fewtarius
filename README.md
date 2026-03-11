@@ -9,8 +9,8 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 | [CLIO](https://github.com/SyntheticAutonomicMind/CLIO) | Terminal-first AI coding assistant with real tool execution and multi-agent coordination | Perl |
 | [ALICE](https://github.com/SyntheticAutonomicMind/ALICE) | Local Stable Diffusion image generation with OpenAI-compatible API and private gallery | Python |
 | [SAM-web](https://github.com/SyntheticAutonomicMind/SAM-web) | A simple web interface for SAM that allows users to access SAM remotely. | HTML |
-| [CLIO-helper](https://github.com/SyntheticAutonomicMind/CLIO-helper) | An AI-powered GitHub monitoring daemon | Perl |
 | [homebrew-SAM](https://github.com/SyntheticAutonomicMind/homebrew-SAM) | A tap repo for Synthetic Autonomic Mind software | Ruby |
+| [CLIO-helper](https://github.com/SyntheticAutonomicMind/CLIO-helper) | An AI-powered GitHub monitoring daemon | Perl |
 | [website](https://github.com/SyntheticAutonomicMind/website) | SAM's Website and Documentation Repository | HTML |
 | [clio-skills](https://github.com/SyntheticAutonomicMind/clio-skills) | A skills repository for CLIO | Shell |
 
@@ -21,8 +21,8 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 | Project | Description | Language |
 |---------|-------------|----------|
 | [photonbbs](https://github.com/fewtarius/photonbbs) | Telnet-based BBS and MUD platform with Docker deployment | Perl |
-| [github-backup](https://github.com/fewtarius/github-backup) | A simple script to backup everything. | Python |
 | [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A terminal emulator that supports native SSH, ANSI, CP437, and more. | C |
+| [github-backup](https://github.com/fewtarius/github-backup) | A simple script to backup everything. | Python |
 | [hdhomerun-deploy](https://github.com/fewtarius/hdhomerun-deploy) |  | Shell |
 | [tvtrim](https://github.com/fewtarius/tvtrim) | Automated commercial stripping for HDHomeRun recordings | Python |
 | [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
