@@ -115,6 +115,26 @@ def fetch_user_repos(user, token):
     return [r for r in (repos or []) if not r.get("fork")]
 
 
+def has_user_commits(repo_full_name, user, token):
+    """Return True if user has at least one commit in the repo."""
+    data = gh_get(f"/repos/{repo_full_name}/commits",
+                  token=token,
+                  params={"author": user, "per_page": "1"})
+    return isinstance(data, list) and len(data) > 0
+
+
+def fetch_user_forks(user, token):
+    repos = gh_get_all(f"/users/{user}/repos", token=token,
+                       params={"type": "public", "sort": "pushed"})
+    forks = [r for r in (repos or [])
+             if r.get("fork") and not r.get("archived")]
+    # Only include forks where the user has actually committed
+    contributed = []
+    for r in forks:
+        if has_user_commits(r["full_name"], user, token):
+            contributed.append(r)
+    return contributed
+
 # ──────────────────────────────────────────────────────────
 # Rendering
 # ──────────────────────────────────────────────────────────
@@ -128,6 +148,37 @@ def repo_description(repo, overrides):
 
 def is_interesting(repo):
     return bool(repo.get("description") or repo.get("stargazers_count", 0) > 0)
+
+
+def render_fork_table(repos, repo_overrides, exclude):
+    """Render forks sorted newest-pushed first, filtered to ones with descriptions."""
+    lines = [
+        "| Project | Description | Language | Last Updated |",
+        "|---------|-------------|----------|--------------|",
+    ]
+
+    shown = 0
+    # API returns sorted by pushed desc already
+    for r in repos:
+        full_name = r["full_name"]
+        name = r["name"]
+
+        if full_name in exclude or name in SKIP_REPO_NAMES:
+            continue
+        if not is_interesting(r):
+            continue
+
+        desc = repo_description(r, repo_overrides)
+        lang = r.get("language") or ""
+        url  = r["html_url"]
+        pushed = r.get("pushed_at", "")
+        last_updated = pushed[:7] if pushed else ""
+        lines.append(f"| [{name}]({url}) | {desc} | {lang} | {last_updated} |")
+        shown += 1
+
+    if shown == 0:
+        return ""
+    return "\n".join(lines)
 
 
 def render_repo_table(repos, repo_overrides, exclude, skip_boring_archived=True):
@@ -266,6 +317,10 @@ def main():
     personal_repos = fetch_user_repos(user, token)
     print(f"  {len(personal_repos)} source repos")
 
+    print(f"\nFetching personal forks for {user}...")
+    personal_forks = fetch_user_forks(user, token)
+    print(f"  {len(personal_forks)} active forks")
+
     # ── Render ──────────────────────────────────────────────
     parts = []
 
@@ -286,6 +341,15 @@ def main():
     parts.append("")
     parts.append(render_repo_table(personal_repos, repo_overrides, exclude,
                                    skip_boring_archived=True))
+
+    fork_table = render_fork_table(personal_forks, repo_overrides, exclude)
+    if fork_table:
+        parts.append("")
+        parts.append("---")
+        parts.append("")
+        parts.append("## Forks")
+        parts.append("")
+        parts.append(fork_table)
 
     archived_orgs = render_archived_orgs(orgs_data, repo_overrides, exclude)
     if archived_orgs:
