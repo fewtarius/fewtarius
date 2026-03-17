@@ -153,8 +153,8 @@ def is_interesting(repo):
 def render_fork_table(repos, repo_overrides, exclude):
     """Render forks sorted newest-pushed first, filtered to ones with descriptions."""
     lines = [
-        "| Project | Description | Language | Last Updated |",
-        "|---------|-------------|----------|--------------|",
+        "| Project | Description | Language |",
+        "|---------|-------------|----------|",
     ]
 
     shown = 0
@@ -171,9 +171,7 @@ def render_fork_table(repos, repo_overrides, exclude):
         desc = repo_description(r, repo_overrides)
         lang = r.get("language") or ""
         url  = r["html_url"]
-        pushed = r.get("pushed_at", "")
-        last_updated = pushed[:7] if pushed else ""
-        lines.append(f"| [{name}]({url}) | {desc} | {lang} | {last_updated} |")
+        lines.append(f"| [{name}]({url}) | {desc} | {lang} |")
         shown += 1
 
     if shown == 0:
@@ -188,10 +186,12 @@ def render_repo_table(repos, repo_overrides, exclude, skip_boring_archived=True)
     ]
 
     def sort_key(r):
-        return (r.get("archived", False), -r.get("stargazers_count", 0))
+        # Sort by pushed_at (most recent first), then by name as tiebreaker
+        pushed_at = r.get("pushed_at", "")
+        return (pushed_at, r.get("name", ""))
 
     shown = 0
-    for r in sorted(repos, key=sort_key):
+    for r in sorted(repos, key=sort_key, reverse=True):
         full_name = r["full_name"]
         name = r["name"]
 
