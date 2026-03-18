@@ -20,10 +20,10 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [dosdoor](https://github.com/fewtarius/dosdoor) | A fork of DosEMU focused on BBS doors | C |
 | [SteamGridManager](https://github.com/fewtarius/SteamGridManager) | Back up, restore, and manage custom Steam library artwork on SteamOS. Scan game collections, create Steam shortcuts, and download artwork from multiple providers. | Python |
 | [homebrew-tap](https://github.com/fewtarius/homebrew-tap) | A homebrew tap repo for my personal projects. | Ruby |
 | [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A Terminal Application for Linux, Windows, and Mac | C |
-| [dosdoor](https://github.com/fewtarius/dosdoor) | A fork of DosEMU focused on BBS doors | C |
 | [img2ans](https://github.com/fewtarius/img2ans) | A simple utility for converting bitmap images to ANSI graphics | C++ |
 | [PhotonTERM-archived *(archived)*](https://github.com/fewtarius/PhotonTERM-archived) | A terminal emulator that supports native SSH, ANSI, CP437, and more. | C |
 | [hdhomerun-deploy](https://github.com/fewtarius/hdhomerun-deploy) | Deploy HDHomerun Record as a service | Shell |
