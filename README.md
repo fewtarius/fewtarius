@@ -20,8 +20,8 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [photonbbs](https://github.com/fewtarius/photonbbs) | Telnet-based BBS and MUD platform with Docker deployment | Perl |
 | [SteamGridManager](https://github.com/fewtarius/SteamGridManager) | Back up, restore, and manage custom Steam library artwork on SteamOS. Scan game collections, create Steam shortcuts, and download artwork from multiple providers. | Python |
+| [photonbbs](https://github.com/fewtarius/photonbbs) | Telnet-based BBS and MUD platform with Docker deployment | Perl |
 | [dosdoor](https://github.com/fewtarius/dosdoor) | A fork of DosEMU focused on BBS doors | C |
 | [homebrew-tap](https://github.com/fewtarius/homebrew-tap) | A homebrew tap repo for my personal projects. | Ruby |
 | [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A Terminal Application for Linux, Windows, and Mac | C |
