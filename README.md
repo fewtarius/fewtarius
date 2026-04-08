@@ -5,9 +5,9 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [SAM](https://github.com/SyntheticAutonomicMind/SAM) | Native macOS AI assistant with voice control, local model support, and persistent memory | Swift |
 | [homebrew-SAM](https://github.com/SyntheticAutonomicMind/homebrew-SAM) | A tap repo for Synthetic Autonomic Mind software | Ruby |
 | [CLIO](https://github.com/SyntheticAutonomicMind/CLIO) | Terminal-first AI coding assistant with real tool execution and multi-agent coordination | Perl |
-| [SAM](https://github.com/SyntheticAutonomicMind/SAM) | Native macOS AI assistant with voice control, local model support, and persistent memory | Swift |
 | [website](https://github.com/SyntheticAutonomicMind/website) | SAM's Website and Documentation Repository | HTML |
 | [CLIO-helper](https://github.com/SyntheticAutonomicMind/CLIO-helper) | An AI-powered GitHub monitoring daemon | Perl |
 | [ALICE](https://github.com/SyntheticAutonomicMind/ALICE) | Local Stable Diffusion image generation with OpenAI-compatible API and private gallery | Python |
@@ -20,6 +20,7 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
 | [photonbbs](https://github.com/fewtarius/photonbbs) | Telnet-based BBS and MUD platform with Docker deployment | Perl |
 | [homebrew-tap](https://github.com/fewtarius/homebrew-tap) | A homebrew tap repo for my personal projects. | Ruby |
 | [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A Terminal Application for Linux, Windows, and Mac | C |
@@ -32,7 +33,6 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 | [hdhomerun-deploy](https://github.com/fewtarius/hdhomerun-deploy) | Deploy HDHomerun Record as a service | Shell |
 | [tvtrim](https://github.com/fewtarius/tvtrim) | Automated commercial stripping for HDHomeRun recordings | Python |
 | [NetDeck](https://github.com/fewtarius/NetDeck) | Advanced networking Decky plugin - MAC spoofing, WiFi hotspot, internet sharing | Python |
-| [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
 | [pulumi-lab](https://github.com/fewtarius/pulumi-lab) | A simple Pulumi proof of concept repo. | Python |
 | [homelab](https://github.com/fewtarius/homelab) | Chef cookbooks for automated infrastructure | Ruby |
 
