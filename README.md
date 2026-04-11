@@ -5,15 +5,15 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [CLIO](https://github.com/SyntheticAutonomicMind/CLIO) | Terminal-first AI coding assistant with real tool execution and multi-agent coordination | Perl |
 | [homebrew-SAM](https://github.com/SyntheticAutonomicMind/homebrew-SAM) | A tap repo for Synthetic Autonomic Mind software | Ruby |
+| [CLIO](https://github.com/SyntheticAutonomicMind/CLIO) | Terminal-first AI coding assistant with real tool execution and multi-agent coordination | Perl |
 | [MIRA](https://github.com/SyntheticAutonomicMind/MIRA) | Modular Integrated Runtime for Agents | C |
 | [SAM](https://github.com/SyntheticAutonomicMind/SAM) | Native macOS AI assistant with voice control, local model support, and persistent memory | Swift |
 | [website](https://github.com/SyntheticAutonomicMind/website) | SAM's Website and Documentation Repository | HTML |
-| [CLIO-helper](https://github.com/SyntheticAutonomicMind/CLIO-helper) | An AI-powered GitHub monitoring daemon | Perl |
-| [ALICE](https://github.com/SyntheticAutonomicMind/ALICE) | Local Stable Diffusion image generation with OpenAI-compatible API and private gallery | Python |
-| [clio-skills](https://github.com/SyntheticAutonomicMind/clio-skills) | A skills repository for CLIO | Shell |
 | [SAM-web](https://github.com/SyntheticAutonomicMind/SAM-web) | A simple web interface for SAM that allows users to access SAM remotely. | HTML |
+| [ALICE](https://github.com/SyntheticAutonomicMind/ALICE) | Local Stable Diffusion image generation with OpenAI-compatible API and private gallery | Python |
+| [CLIO-helper](https://github.com/SyntheticAutonomicMind/CLIO-helper) | An AI-powered GitHub monitoring daemon | Perl |
+| [clio-skills](https://github.com/SyntheticAutonomicMind/clio-skills) | A skills repository for CLIO | Shell |
 
 ---
 
