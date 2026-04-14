@@ -21,8 +21,8 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A Terminal Application for Linux, Windows, and Mac | C |
 | [homebrew-tap](https://github.com/fewtarius/homebrew-tap) | A homebrew tap repo for my personal projects. | Ruby |
+| [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A Terminal Application for Linux, Windows, and Mac | C |
 | [photonbbs](https://github.com/fewtarius/photonbbs) | Telnet-based BBS and MUD platform with Docker deployment | Perl |
 | [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
 | [PhotonBBS-website](https://github.com/fewtarius/PhotonBBS-website) | A website for PhotonBBS and Terminal Tavern | HTML |
