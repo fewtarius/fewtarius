@@ -5,13 +5,13 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [SAM](https://github.com/SyntheticAutonomicMind/SAM) | Native macOS AI assistant with voice control, local model support, and persistent memory | Swift |
+| [CLIO-helper](https://github.com/SyntheticAutonomicMind/CLIO-helper) | An AI-powered GitHub monitoring daemon | Perl |
 | [homebrew-SAM](https://github.com/SyntheticAutonomicMind/homebrew-SAM) | A tap repo for Synthetic Autonomic Mind software | Ruby |
 | [CLIO](https://github.com/SyntheticAutonomicMind/CLIO) | Terminal-first AI coding assistant with real tool execution and multi-agent coordination | Perl |
+| [SAM](https://github.com/SyntheticAutonomicMind/SAM) | Native macOS AI assistant with voice control, local model support, and persistent memory | Swift |
 | [clio-skills](https://github.com/SyntheticAutonomicMind/clio-skills) | A skills repository for CLIO | Shell |
 | [website](https://github.com/SyntheticAutonomicMind/website) | SAM's Website and Documentation Repository | HTML |
 | [SAM-web](https://github.com/SyntheticAutonomicMind/SAM-web) | A simple web interface for SAM that allows users to access SAM remotely. | HTML |
-| [CLIO-helper](https://github.com/SyntheticAutonomicMind/CLIO-helper) | An AI-powered GitHub monitoring daemon | Perl |
 | [ALICE](https://github.com/SyntheticAutonomicMind/ALICE) | Local Stable Diffusion image generation with OpenAI-compatible API and private gallery | Python |
 
 ---
@@ -22,8 +22,8 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 |---------|-------------|----------|
 | [homebrew-tap](https://github.com/fewtarius/homebrew-tap) | A homebrew tap repo for my personal projects. | Ruby |
 | [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A Terminal Application for Linux, Windows, and Mac | C |
-| [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
 | [PhotonBBS-website](https://github.com/fewtarius/PhotonBBS-website) | A website for PhotonBBS and Terminal Tavern | HTML |
+| [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
 | [img2ans](https://github.com/fewtarius/img2ans) | A simple utility for converting bitmap images to ANSI graphics | C++ |
 | [dosdoor](https://github.com/fewtarius/dosdoor) | A fork of DosEMU focused on BBS doors | C |
 | [github-backup](https://github.com/fewtarius/github-backup) | A simple script to backup everything. | Python |
