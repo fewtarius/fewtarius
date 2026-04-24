@@ -20,12 +20,9 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [homebrew-tap](https://github.com/fewtarius/homebrew-tap) | A homebrew tap repo for my personal projects. | Ruby |
-| [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A Terminal Application for Linux, Windows, and Mac | C |
-| [PhotonBBS-website](https://github.com/fewtarius/PhotonBBS-website) | A website for PhotonBBS and Terminal Tavern | HTML |
 | [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
+| [homebrew-tap](https://github.com/fewtarius/homebrew-tap) | A homebrew tap repo for my personal projects. | Ruby |
 | [img2ans](https://github.com/fewtarius/img2ans) | A simple utility for converting bitmap images to ANSI graphics | C++ |
-| [dosdoor](https://github.com/fewtarius/dosdoor) | A fork of DosEMU focused on BBS doors | C |
 | [github-backup](https://github.com/fewtarius/github-backup) | A simple script to backup everything. | Python |
 | [SteamGridManager](https://github.com/fewtarius/SteamGridManager) | Back up, restore, and manage custom Steam library artwork on SteamOS. Scan game collections, create Steam shortcuts, and download artwork from multiple providers. | Python |
 | [hdhomerun-deploy](https://github.com/fewtarius/hdhomerun-deploy) | Deploy HDHomerun Record as a service | Shell |
