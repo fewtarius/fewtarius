@@ -20,6 +20,7 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [llama-ai](https://github.com/fewtarius/llama-ai) | A personal repository that automates using local LLMs on my personal AMD devices | Shell |
 | [SteamGridManager](https://github.com/fewtarius/SteamGridManager) | Back up, restore, and manage custom Steam library artwork on SteamOS. Scan game collections, create Steam shortcuts, and download artwork from multiple providers. | Python |
 | [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
 | [github-backup](https://github.com/fewtarius/github-backup) | A simple script to backup everything. | Python |
