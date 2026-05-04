@@ -20,9 +20,14 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [homebrew-tap](https://github.com/fewtarius/homebrew-tap) | A homebrew tap repo for my personal projects. | Ruby |
+| [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A Terminal Application for Linux, Windows, and Mac | C |
 | [llama-ai](https://github.com/fewtarius/llama-ai) | A personal repository that automates using local LLMs on my personal AMD devices | Shell |
 | [SteamGridManager](https://github.com/fewtarius/SteamGridManager) | Back up, restore, and manage custom Steam library artwork on SteamOS. Scan game collections, create Steam shortcuts, and download artwork from multiple providers. | Python |
 | [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
+| [CLIO-bot](https://github.com/fewtarius/CLIO-bot) | A discord bot backed by CLIO | Python |
+| [img2ans](https://github.com/fewtarius/img2ans) | A simple utility for converting bitmap images to ANSI graphics | C++ |
+| [dosdoor](https://github.com/fewtarius/dosdoor) | A fork of DosEMU focused on BBS doors | C |
 | [github-backup](https://github.com/fewtarius/github-backup) | A simple script to backup everything. | Python |
 | [hdhomerun-deploy](https://github.com/fewtarius/hdhomerun-deploy) | Deploy HDHomerun Record as a service | Shell |
 | [tvtrim](https://github.com/fewtarius/tvtrim) | Automated commercial stripping for HDHomeRun recordings | Python |
