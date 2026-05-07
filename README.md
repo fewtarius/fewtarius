@@ -41,6 +41,7 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [llama.cpp](https://github.com/fewtarius/llama.cpp) | LLM inference in C/C++ | C++ |
 | [Usurper](https://github.com/fewtarius/Usurper) | 32 and 64bit ports of Usurper BBS door game version 0.20e | Pascal |
 | [InputPlumber](https://github.com/fewtarius/InputPlumber) | Open source input router and remapper daemon for Linux  | Rust |
 | [SimpleDeckyTDP](https://github.com/fewtarius/SimpleDeckyTDP) | (Formerly Simple) TDP plugin for alternative AMD PC handhelds | TypeScript |
