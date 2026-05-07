@@ -5,13 +5,13 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [SAM](https://github.com/SyntheticAutonomicMind/SAM) | Native macOS AI assistant with voice control, local model support, and persistent memory | Swift |
 | [homebrew-SAM](https://github.com/SyntheticAutonomicMind/homebrew-SAM) | A tap repo for Synthetic Autonomic Mind software | Ruby |
 | [CLIO](https://github.com/SyntheticAutonomicMind/CLIO) | Terminal-first AI coding assistant with real tool execution and multi-agent coordination | Perl |
 | [SAM-web](https://github.com/SyntheticAutonomicMind/SAM-web) | A simple web interface for SAM that allows users to access SAM remotely. | HTML |
 | [website](https://github.com/SyntheticAutonomicMind/website) | SAM's Website and Documentation Repository | HTML |
 | [CLIO-helper](https://github.com/SyntheticAutonomicMind/CLIO-helper) | An AI-powered GitHub monitoring daemon | Perl |
 | [ALICE](https://github.com/SyntheticAutonomicMind/ALICE) | Local Stable Diffusion image generation with OpenAI-compatible API and private gallery | Python |
-| [SAM](https://github.com/SyntheticAutonomicMind/SAM) | Native macOS AI assistant with voice control, local model support, and persistent memory | Swift |
 | [clio-skills](https://github.com/SyntheticAutonomicMind/clio-skills) | A skills repository for CLIO | Shell |
 
 ---
@@ -20,9 +20,9 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [llama-ai](https://github.com/fewtarius/llama-ai) | A simple script repository that automates using local LLMs on my personal AMD devices | Shell |
 | [homebrew-tap](https://github.com/fewtarius/homebrew-tap) | A homebrew tap repo for my personal projects. | Ruby |
 | [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A Terminal Application for Linux, Windows, and Mac | C |
-| [llama-ai](https://github.com/fewtarius/llama-ai) | A personal repository that automates using local LLMs on my personal AMD devices | Shell |
 | [SteamGridManager](https://github.com/fewtarius/SteamGridManager) | Back up, restore, and manage custom Steam library artwork on SteamOS. Scan game collections, create Steam shortcuts, and download artwork from multiple providers. | Python |
 | [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
 | [CLIO-bot](https://github.com/fewtarius/CLIO-bot) | A discord bot backed by CLIO | Python |
