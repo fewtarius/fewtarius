@@ -21,8 +21,8 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 | Project | Description | Language |
 |---------|-------------|----------|
 | [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
-| [llama-ai](https://github.com/fewtarius/llama-ai) | A project repository for work on improving local LLMs on my personal AMD devices | Shell |
 | [SteamGridManager](https://github.com/fewtarius/SteamGridManager) | Back up, restore, and manage custom Steam library artwork on SteamOS. Scan game collections, create Steam shortcuts, and download artwork from multiple providers. | Python |
+| [llama-ai](https://github.com/fewtarius/llama-ai) | A project repository for work on improving local LLMs on my personal AMD devices | Shell |
 | [homebrew-tap](https://github.com/fewtarius/homebrew-tap) | A homebrew tap repo for my personal projects. | Ruby |
 | [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A Terminal Application for Linux, Windows, and Mac | C |
 | [CLIO-bot](https://github.com/fewtarius/CLIO-bot) | A discord bot backed by CLIO | Python |
@@ -43,7 +43,6 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 |---------|-------------|----------|
 | [llama.cpp](https://github.com/fewtarius/llama.cpp) | LLM inference in C/C++ | C++ |
 | [Usurper](https://github.com/fewtarius/Usurper) | 32 and 64bit ports of Usurper BBS door game version 0.20e | Pascal |
-| [InputPlumber](https://github.com/fewtarius/InputPlumber) | Open source input router and remapper daemon for Linux  | Rust |
 | [SimpleDeckyTDP](https://github.com/fewtarius/SimpleDeckyTDP) | (Formerly Simple) TDP plugin for alternative AMD PC handhelds | TypeScript |
 | [wiki](https://github.com/fewtarius/wiki) | SteamFork documentation source repository. |  |
 | [distribution](https://github.com/fewtarius/distribution) | SteamFork project repository. | Shell |
