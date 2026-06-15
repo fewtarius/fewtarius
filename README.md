@@ -5,13 +5,13 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [CLIO-helper](https://github.com/SyntheticAutonomicMind/CLIO-helper) | An AI-powered GitHub monitoring daemon | Perl |
 | [SAM](https://github.com/SyntheticAutonomicMind/SAM) | Native macOS AI assistant with voice control, local model support, and persistent memory | Swift |
 | [homebrew-SAM](https://github.com/SyntheticAutonomicMind/homebrew-SAM) | A tap repo for Synthetic Autonomic Mind software | Ruby |
 | [CLIO](https://github.com/SyntheticAutonomicMind/CLIO) | Terminal-first AI coding assistant with real tool execution and multi-agent coordination | Perl |
 | [ALICE](https://github.com/SyntheticAutonomicMind/ALICE) | Local Stable Diffusion image generation with OpenAI-compatible API and private gallery | Python |
 | [SAM-web](https://github.com/SyntheticAutonomicMind/SAM-web) | A simple web interface for SAM that allows users to access SAM remotely. | HTML |
 | [website](https://github.com/SyntheticAutonomicMind/website) | SAM's Website and Documentation Repository | HTML |
-| [CLIO-helper](https://github.com/SyntheticAutonomicMind/CLIO-helper) | An AI-powered GitHub monitoring daemon | Perl |
 | [clio-skills](https://github.com/SyntheticAutonomicMind/clio-skills) | A skills repository for CLIO | Shell |
 
 ---
@@ -40,7 +40,7 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [llama.cpp](https://github.com/fewtarius/llama.cpp) | LLM inference in C/C++ | C++ |
+| [CachyLLama](https://github.com/fewtarius/CachyLLama) | LLM inference in C/C++ | C++ |
 | [Usurper](https://github.com/fewtarius/Usurper) | 32 and 64bit ports of Usurper BBS door game version 0.20e | Pascal |
 | [SimpleDeckyTDP](https://github.com/fewtarius/SimpleDeckyTDP) | (Formerly Simple) TDP plugin for alternative AMD PC handhelds | TypeScript |
 | [wiki](https://github.com/fewtarius/wiki) | SteamFork documentation source repository. |  |
