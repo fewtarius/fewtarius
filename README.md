@@ -20,8 +20,8 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
 | [llama-ai](https://github.com/fewtarius/llama-ai) | A project repository for work on improving local LLMs on my personal AMD devices | Shell |
+| [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
 | [emdoor-wmi](https://github.com/fewtarius/emdoor-wmi) | A kernel driver providing platform power and RGB control for Nimo Axis N161 | C |
 | [nimo-rgb](https://github.com/fewtarius/nimo-rgb) | Decky plugin for managing the RGB on a Nimo Axis and other compatible devices. | TypeScript |
 | [SteamGridManager](https://github.com/fewtarius/SteamGridManager) | Back up, restore, and manage custom Steam library artwork on SteamOS. Scan game collections, create Steam shortcuts, and download artwork from multiple providers. | Python |
