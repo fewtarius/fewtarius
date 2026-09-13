@@ -21,7 +21,6 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 | Project | Description | Language |
 |---------|-------------|----------|
 | [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
-| [llama-ai](https://github.com/fewtarius/llama-ai) | A project repository for work on improving local LLMs on my personal AMD devices | Shell |
 | [SteamGridManager](https://github.com/fewtarius/SteamGridManager) | Back up, restore, and manage custom Steam library artwork on SteamOS. Scan game collections, create Steam shortcuts, and download artwork from multiple providers. | Python |
 | [homebrew-tap](https://github.com/fewtarius/homebrew-tap) | A homebrew tap repo for my personal projects. | Ruby |
 | [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A Terminal Application for Linux, Windows, and Mac | C |
@@ -42,7 +41,6 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [CachyLLama](https://github.com/fewtarius/CachyLLama) | LLM inference in C/C++ | C++ |
 | [Usurper](https://github.com/fewtarius/Usurper) | 32 and 64bit ports of Usurper BBS door game version 0.20e | Pascal |
 | [SimpleDeckyTDP](https://github.com/fewtarius/SimpleDeckyTDP) | (Formerly Simple) TDP plugin for alternative AMD PC handhelds | TypeScript |
 | [wiki](https://github.com/fewtarius/wiki) | SteamFork documentation source repository. |  |
