@@ -5,7 +5,6 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [clio-skills](https://github.com/SyntheticAutonomicMind/clio-skills) | A skills repository for CLIO | Shell |
 | [homebrew-SAM](https://github.com/SyntheticAutonomicMind/homebrew-SAM) | A tap repo for Synthetic Autonomic Mind software | Ruby |
 | [CLIO](https://github.com/SyntheticAutonomicMind/CLIO) | Terminal-first AI coding assistant with real tool execution and multi-agent coordination | Perl |
 | [CLIO-helper](https://github.com/SyntheticAutonomicMind/CLIO-helper) | An AI-powered GitHub monitoring daemon | Perl |
