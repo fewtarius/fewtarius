@@ -5,9 +5,9 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [SAM](https://github.com/SyntheticAutonomicMind/SAM) | Native macOS AI assistant with voice control, local model support, and persistent memory | Swift |
 | [homebrew-SAM](https://github.com/SyntheticAutonomicMind/homebrew-SAM) | A tap repo for Synthetic Autonomic Mind software | Ruby |
 | [CLIO](https://github.com/SyntheticAutonomicMind/CLIO) | Terminal-first AI coding assistant with real tool execution and multi-agent coordination | Perl |
+| [SAM](https://github.com/SyntheticAutonomicMind/SAM) | Native macOS AI assistant with voice control, local model support, and persistent memory | Swift |
 | [CLIO-skills](https://github.com/SyntheticAutonomicMind/CLIO-skills) | A skills repository for CLIO | Shell |
 | [ALICE](https://github.com/SyntheticAutonomicMind/ALICE) | Local Stable Diffusion image generation with OpenAI-compatible API and private gallery | Python |
 | [CLIO-helper](https://github.com/SyntheticAutonomicMind/CLIO-helper) | An AI-powered GitHub monitoring daemon | Perl |
@@ -41,6 +41,7 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [gufo](https://github.com/fewtarius/gufo) | GPU + XDNA2 NPU inference for AMD Strix Halo (gfx1151): Qwen3.6-35B-A3B, Qwen3.8-27B, Qwen3.8 Flash-Next, Flint and GLM-5.3 Flash (321B MoE). NPU prefill up to +28%, Flint 4.1k tok/s prefill, MTP / DFlash2 / auto speculative decoding up to 159 tok/s on structured text. | C++ |
 | [Usurper](https://github.com/fewtarius/Usurper) | 32 and 64bit ports of Usurper BBS door game version 0.20e | Pascal |
 | [SimpleDeckyTDP](https://github.com/fewtarius/SimpleDeckyTDP) | (Formerly Simple) TDP plugin for alternative AMD PC handhelds | TypeScript |
 | [wiki](https://github.com/fewtarius/wiki) | SteamFork documentation source repository. |  |
