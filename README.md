@@ -20,6 +20,7 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [gufo-laguna *(archived)*](https://github.com/fewtarius/gufo-laguna) | GPU + XDNA2 NPU inference for AMD Strix Halo (gfx1151): Qwen3.6-35B-A3B, Qwen3.8-27B, Qwen3.8 Flash-Next, Flint and GLM-5.3 Flash (321B MoE). NPU prefill up to +28%, Flint 4.1k tok/s prefill, MTP / DFlash2 / auto speculative decoding up to 159 tok/s on structured text. | C++ |
 | [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
 | [SteamGridManager](https://github.com/fewtarius/SteamGridManager) | Back up, restore, and manage custom Steam library artwork on SteamOS. Scan game collections, create Steam shortcuts, and download artwork from multiple providers. | Python |
 | [homebrew-tap](https://github.com/fewtarius/homebrew-tap) | A homebrew tap repo for my personal projects. | Ruby |
@@ -41,7 +42,7 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [gufo](https://github.com/fewtarius/gufo) | GPU + XDNA2 NPU inference for AMD Strix Halo (gfx1151): Qwen3.6-35B-A3B, Qwen3.8-27B, Qwen3.8 Flash-Next, Flint and GLM-5.3 Flash (321B MoE). NPU prefill up to +28%, Flint 4.1k tok/s prefill, MTP / DFlash2 / auto speculative decoding up to 159 tok/s on structured text. | C++ |
+| [gufo](https://github.com/fewtarius/gufo) | The Open Source Strix Halo AI engine. Qwen 3.8  Flash Next Q4_K_XL: 1,801.01 pp, 73.17 tg single user, 194.37 tok/s 8 users; Qwen 3.8 27B Q4_K_XL: 656.33pp, 70.56tg tok/s single user with DFlash2 | C++ |
 | [Usurper](https://github.com/fewtarius/Usurper) | 32 and 64bit ports of Usurper BBS door game version 0.20e | Pascal |
 | [SimpleDeckyTDP](https://github.com/fewtarius/SimpleDeckyTDP) | (Formerly Simple) TDP plugin for alternative AMD PC handhelds | TypeScript |
 | [wiki](https://github.com/fewtarius/wiki) | SteamFork documentation source repository. |  |
