@@ -42,7 +42,7 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [gufo](https://github.com/fewtarius/gufo) | The Open Source Strix Halo AI engine. Qwen 3.8  Flash Next Q4_K_XL: 1,801.01 pp, 73.17 tg single user, 194.37 tok/s 8 users; Qwen 3.8 27B Q4_K_XL: 656.33pp, 70.56tg tok/s single user with DFlash2 | C++ |
+| [gufo](https://github.com/fewtarius/gufo) | Gufo fork that adds support for Laguna S, Qwen 3.6 35B A3B.  Support for the Radeon 780M APU is a work in progress. | C++ |
 | [Usurper](https://github.com/fewtarius/Usurper) | 32 and 64bit ports of Usurper BBS door game version 0.20e | Pascal |
 | [SimpleDeckyTDP](https://github.com/fewtarius/SimpleDeckyTDP) | (Formerly Simple) TDP plugin for alternative AMD PC handhelds | TypeScript |
 | [wiki](https://github.com/fewtarius/wiki) | SteamFork documentation source repository. |  |
