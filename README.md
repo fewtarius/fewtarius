@@ -6,9 +6,9 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 | Project | Description | Language |
 |---------|-------------|----------|
 | [SAM](https://github.com/SyntheticAutonomicMind/SAM) | Native macOS AI assistant with voice control, local model support, and persistent memory | Swift |
-| [ALICE](https://github.com/SyntheticAutonomicMind/ALICE) | Local Stable Diffusion image generation with OpenAI-compatible API and private gallery | Python |
 | [homebrew-SAM](https://github.com/SyntheticAutonomicMind/homebrew-SAM) | A tap repo for Synthetic Autonomic Mind software | Ruby |
 | [CLIO](https://github.com/SyntheticAutonomicMind/CLIO) | Terminal-first AI coding assistant with real tool execution and multi-agent coordination | Perl |
+| [ALICE](https://github.com/SyntheticAutonomicMind/ALICE) | Local Stable Diffusion image generation with OpenAI-compatible API and private gallery | Python |
 | [CLIO-helper](https://github.com/SyntheticAutonomicMind/CLIO-helper) | An AI-powered GitHub monitoring daemon | Perl |
 | [CLIO-skills](https://github.com/SyntheticAutonomicMind/CLIO-skills) | A skills repository for CLIO | Shell |
 | [website](https://github.com/SyntheticAutonomicMind/website) | SAM's Website and Documentation Repository | Python |
@@ -19,10 +19,10 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [SteamGridManager](https://github.com/fewtarius/SteamGridManager) | Back up, restore, and manage custom Steam library artwork on SteamOS. Scan game collections, create Steam shortcuts, and download artwork from multiple providers. | Python |
 | [NetDeck](https://github.com/fewtarius/NetDeck) | Advanced networking Decky plugin - MAC spoofing, WiFi hotspot, internet sharing | Python |
 | [gufo-laguna *(archived)*](https://github.com/fewtarius/gufo-laguna) | GPU + XDNA2 NPU inference for AMD Strix Halo (gfx1151): Qwen3.6-35B-A3B, Qwen3.8-27B, Qwen3.8 Flash-Next, Flint and GLM-5.3 Flash (321B MoE). NPU prefill up to +28%, Flint 4.1k tok/s prefill, MTP / DFlash2 / auto speculative decoding up to 159 tok/s on structured text. | C++ |
 | [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
-| [SteamGridManager](https://github.com/fewtarius/SteamGridManager) | Back up, restore, and manage custom Steam library artwork on SteamOS. Scan game collections, create Steam shortcuts, and download artwork from multiple providers. | Python |
 | [homebrew-tap](https://github.com/fewtarius/homebrew-tap) | A homebrew tap repo for my personal projects. | Ruby |
 | [PhotonTERM](https://github.com/fewtarius/PhotonTERM) | A Terminal Application for Linux, Windows, and Mac | C |
 | [nimo-rgb](https://github.com/fewtarius/nimo-rgb) | Decky plugin for managing the RGB on a Nimo Axis and other compatible devices. | TypeScript |
