@@ -19,6 +19,7 @@ Privacy-first AI tools. Free, open source, and built to work the way you do.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [llm-scripts](https://github.com/fewtarius/llm-scripts) | Scripts that I use to build and launch Llama.cpp and Gufo. | Shell |
 | [PowerDeck](https://github.com/fewtarius/PowerDeck) | Power management Decky plugin for Steam Deck and compatible handhelds | Python |
 | [SteamGridManager](https://github.com/fewtarius/SteamGridManager) | Back up, restore, and manage custom Steam library artwork on SteamOS. Scan game collections, create Steam shortcuts, and download artwork from multiple providers. | Python |
 | [NetDeck](https://github.com/fewtarius/NetDeck) | Advanced networking Decky plugin - MAC spoofing, WiFi hotspot, internet sharing | Python |
